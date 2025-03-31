@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "cs-chatbot"
+version = "0.1.0"
+description = "A chatbot for the CS department"
+authors = ["Your Name"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+flask = "*"
+spacy = "*"
+sqlite3 = "*"
+scikit-learn = "*"
+thefuzz = "*"
+fuzzywuzzy = "*"
